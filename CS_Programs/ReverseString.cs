@@ -18,7 +18,7 @@ namespace CS_Programs
             {
                 tempstr = tempstr + charNum[i];
             }
-            Console.WriteLine(tempstr);
+            Console.WriteLine("Reverse string is: " +tempstr);
         }
 
     }
