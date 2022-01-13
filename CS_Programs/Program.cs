@@ -12,7 +12,8 @@ namespace CS_Programs
         {
             //FibonacciSeries f = new FibonacciSeries();  //To create object
             Console.WriteLine("Choose the program");
-            Console.WriteLine("\n 1. Fibonacci Series \n 2. Reverse Number \n 3. Reverse String \n 4. Swap Numbers ");
+            Console.WriteLine("\n 1. Fibonacci Series \n 2. Reverse Number \n 3. Reverse String \n 4. Swap Numbers" +
+                "\n 5. Arithmetic Operations");
             //int programNum = Convert.ToInt32(Console.ReadLine()); //To read integer value
             string programNum = Console.ReadLine();
             switch (programNum)
@@ -28,6 +29,9 @@ namespace CS_Programs
                     break;
                 case "4":
                     SwapNumbers.SwapingNumbers();
+                    break;
+                case "5":
+                    ArithmeticOperations.PerformArithmeticOperations();
                     break;
                 default:
                     Console.WriteLine("Please choose the correct Program");
