@@ -12,9 +12,9 @@ namespace CS_Programs
         {
             double addition, subtraction, multipication, division, average;
             Console.WriteLine("Pease Enter First Number");
-            double num1 = Convert.ToInt32(Console.ReadLine());
+            double num1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Pease Enter Second Number");
-            double num2 = Convert.ToInt32(Console.ReadLine());
+            double num2 = Convert.ToDouble(Console.ReadLine());
 
             addition = num1 + num2;
             subtraction = num1 - num2;
