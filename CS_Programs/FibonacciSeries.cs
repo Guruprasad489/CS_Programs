@@ -11,7 +11,7 @@ namespace CS_Programs
         public static void FindFibonacciSeries()
         {
             int n1 = 0, n2 = 1, result;
-            Console.WriteLine("Enter How many Fibonacci numbers to display");
+            Console.WriteLine("Enter How many Fibonacci numbers to display:");
             int num = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Fibonacci series is:");
             Console.Write(n1 + " " + n2 + " ");
