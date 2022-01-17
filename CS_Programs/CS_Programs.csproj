@@ -46,6 +46,7 @@
     <Compile Include="ArithmeticOperations.cs" />
     <Compile Include="ArrayMultiplication.cs" />
     <Compile Include="FibonacciSeries.cs" />
+    <Compile Include="MultipleOf_3and7.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseString.cs" />

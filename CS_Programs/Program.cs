@@ -13,31 +13,33 @@ namespace CS_Programs
             //FibonacciSeries f = new FibonacciSeries();  //To create object
             Console.WriteLine("Choose the program");
             Console.WriteLine("\n 1. Fibonacci Series \n 2. Reverse Number \n 3. Reverse String \n 4. Swap Numbers" +
-                "\n 5. Arithmetic Operations \n 6. Array Multiplication");
-            //int programNum = Convert.ToInt32(Console.ReadLine()); //To read integer value
-            string programNum = Console.ReadLine();
+                "\n 5. Arithmetic Operations \n 6. Array Multiplication \n 7. Multiple of 3 and 7");
+            int programNum = Convert.ToInt32(Console.ReadLine());
             switch (programNum)
             {
-                case "1": 
+                case 1: 
                     FibonacciSeries.FindFibonacciSeries();
                     break;
-                case "2":
+                case 2:
                     ReverseNumber.FindReverseNumber();
                     break;
-                case "3":
+                case 3:
                     ReverseString.GetReverseString();
                     break;
-                case "4":
+                case 4:
                     SwapNumbers.SwapingNumbers();
                     break;
-                case "5":
+                case 5:
                     ArithmeticOperations.PerformArithmeticOperations();
                     break;
-                case "6":
+                case 6:
                     ArrayMultiplication.GetArrayMultiplication();
                     break;
+                case 7:
+                    MultipleOf_3and7.CheckMultipleof_3and7();
+                    break;
                 default:
-                    Console.WriteLine("Please choose the correct Program");
+                    Console.WriteLine("Please choose the correct ProgramNum");
                     break;
             }
         }
