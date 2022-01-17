@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ArithmeticOperations.cs" />
     <Compile Include="ArrayMultiplication.cs" />
+    <Compile Include="DayProperties.cs" />
     <Compile Include="FibonacciSeries.cs" />
     <Compile Include="MultipleOf_3and7.cs" />
     <Compile Include="Program.cs" />
