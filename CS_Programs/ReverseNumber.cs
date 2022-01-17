@@ -11,7 +11,7 @@ namespace CS_Programs
         public static void FindReverseNumber()
         {
             int reminder, reverse=0;
-            Console.WriteLine("Please Enter Number to reverse");
+            Console.WriteLine("Please Enter Number to reverse:");
             int number = Convert.ToInt32(Console.ReadLine());
             
             while (number > 0)
