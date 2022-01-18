@@ -36,7 +36,7 @@ namespace CS_Programs
                     ArrayMultiplication.GetArrayMultiplication();
                     break;
                 case 7:
-                    MultipleOf_3and7.CheckMultipleof_3and7();
+                    MultipleOf3and7.CheckMultipleof3and7();
                     break;
                 case 8:
                     DayProperties.Day_Properties();

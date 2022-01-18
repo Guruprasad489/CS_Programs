@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CS_Programs
 {
-    public class MultipleOf_3and7
+    public class MultipleOf3and7
     {
-        public static void CheckMultipleof_3and7()
+        public static void CheckMultipleof3and7()
         {
             Console.WriteLine("Enter an integer to check wheather it is \"multiple of 3 and 7\" or not:");
             int x = Convert.ToInt32(Console.ReadLine());
