@@ -50,6 +50,8 @@
     <Compile Include="MultipleOf3and7.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PyramidPattern.cs" />
+    <Compile Include="TrianglePattern.cs" />
     <Compile Include="ReverseString.cs" />
     <Compile Include="ReverseNumber.cs" />
     <Compile Include="SwapNumbers.cs" />
